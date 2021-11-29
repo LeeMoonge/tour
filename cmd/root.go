@@ -14,5 +14,8 @@ func init() {
 
 	// 注册时间转换工具
 	rootCmd.AddCommand(timeCmd)
+
+	// 注册数据库格式化工具
+	rootCmd.AddCommand(sqlCmd)
 }
 
